@@ -1,0 +1,59 @@
+.header{
+    padding-top: 1vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    
+   
+
+}
+
+.header img{
+    width: 20%;
+}
+
+
+
+.header .home{
+    color: green;
+    font-size:1.5rem;
+    
+    text-decoration: none;
+}
+.header select{
+    width: 79px;
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+option {
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+.header .btn{
+    padding-top:   10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-size:  1.4rem;
+   border: none;
+   border-radius: 3px;
+    background-color: #29b475;
+    color: #fff;
+    margin: 0 70px 0 0;
+    cursor: pointer;
+    width: fit-content;
+    font-family: "Poppins", sans-serif;
+
+}

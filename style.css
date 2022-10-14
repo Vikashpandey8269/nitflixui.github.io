@@ -1,0 +1,276 @@
+
+
+
+
+body{
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    padding: 0%;
+    margin: 0%;
+    background-color: black;
+    color: #ffffff;
+   
+    
+    
+   
+}
+
+
+.root{
+    background-size: cover;
+
+    background-image:radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)) ,url("..//IN-en-20220912-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-repeat: no-repeat;
+    background-position: center
+    ;
+    border-bottom: 0.6rem solid #222;
+   
+
+   
+}
+
+
+
+.navbar{
+    padding-top: 1vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-logo {
+    width: 12%;
+    color:#e50914;
+    border: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons > div{
+    margin-left: 2rem;
+
+}
+
+.btn{
+    padding-top:   10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: 1.1rem;
+   
+    background-color: #e50914;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+   width: fit-content;
+
+}
+
+.selected{
+    font-size: 1rem;
+    outline:none ;
+    border:none ;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: transparent;
+    
+    color: #ffffff;
+    
+   
+    
+}
+
+.selected option{
+    background-color: gray;
+}
+
+.lang{
+    position:relative ;
+    border:1px solid white ;
+    border-radius:0.2rem ;
+    background-color:transparent ;
+}
+
+.fa-globe,
+.fa-caret-down{
+    position: absolute;
+    top: 32%;
+    left: 5%;
+    pointer-events: none;
+
+
+}
+
+.fa-caret-down{
+    top: 25%;
+    left: 83%;
+}
+
+ 
+.main-container{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-titels-container{
+
+    width: 50%;
+    text-align: center;
+    color: white;
+
+}
+
+.main-titels{
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 4.3em;
+    margin-bottom: 14px;
+    line-height: 1.1;
+}
+
+.main-subtitels{
+    font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 1.65rem;
+    margin-bottom: 30px ;
+}
+
+.main-call-to-action{
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+
+    font-size: 1.3em;
+
+}
+
+.main-email-container{
+
+    width: 50%;
+    height: fit-content;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    align-items: center;
+}
+
+.main-email-container-input{
+
+    outline: none;
+    border: none;
+    padding: 9px 8px;
+    font-size: 1em;
+
+}
+.btn-get-started{
+    cursor: pointer;
+    padding: 20px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: fit-content;
+    background-color: #e50914;
+    color: white;
+    font-size: 2em;
+    
+    text-align: center;
+}
+
+.btn-get-started:hover{
+   
+    background-color: #ff0b18;
+   
+}
+.part1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+    align-items: center;
+    padding: 70px 45px;
+    border-bottom: 0.6rem solid #111;
+    
+}
+.part1 .talk{
+    width: 40%;
+
+}
+.part1 .talk h1{
+    font-size: 3rem;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+   
+    color: #ffffff;
+}
+
+.part1 .talk p{
+    font-size: 1.7rem;
+    color: #fff;
+}
+ .part1 .image{
+    width: 45%;
+    
+}
+
+.image{
+    position: relative;
+}
+.image img{
+    width: 625px;
+}
+.image video{
+    width: 450px;
+    position: absolute;
+    top: 98px;
+    left: 85px;
+}
+.image.s3 img{
+    width: 625px;
+    position: relative;
+    z-index: 5;
+}
+.image.s3 video{
+    width: 400px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+.list{
+    width:60 ;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    margin: auto;
+
+   
+   
+}
+
+.list h1{
+    color: #ffffff;
+    font-size: 3rem;
+    padding: 3rem,0,4rem,0;
+}
+.tittle{
+    background-color: #303030;
+    padding-left: 20px 30px;
+    display: flex;
+   
+    justify-content:space-between ;
+    align-items: center;
+    color: #ffffff;
+   text-decoration:none;
+    font-size: 1.7rem;
+    font-weight: 300;
+
+
+}
